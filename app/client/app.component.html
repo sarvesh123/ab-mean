@@ -1,0 +1,14 @@
+<header>
+  <div class="container">
+    <h1>Airbnb Clone!</h1>
+    <ul class="nav nav-pills">
+      <li role="navigation"><a href="#" class="site-nav-pill nav-active">Home</a></li>
+      <li role="navigation"><a [routerLink]="['/login']" class="site-nav-pill">Login</a></li>
+      <li role="navigation"><a href="#" class="site-nav-pill">Sign Up</a></li>
+    </ul>
+  </div>
+</header>
+<div class="page-container">
+  <router-outlet></router-outlet>
+</div>
+<footer class="container">&copy;2016</footer>

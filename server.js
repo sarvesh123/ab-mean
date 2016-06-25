@@ -50,7 +50,7 @@ router.get('/', function(req, res) {
     res.json({ message: 'hooray! welcome to our api!' });
 });
 
-require('./app/routes/users')(router, passport);
+require('./app/server/routes/users')(router, passport);
 
 // REGISTER OUR ROUTES -------------------------------
 // all of our routes will be prefixed with /api
